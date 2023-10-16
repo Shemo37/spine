@@ -76,6 +76,7 @@ function exportAnimation(FPS = 60) {
         document.getElementById("rendering").style.display = "none";
         document.getElementById("complete").style.display = "block";
         document.getElementById("result").appendChild(exportVideo);
+        return exportVideo;
       }, animLength * 1000);
     });
 }
